@@ -17,5 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.verifyElementVisible(findTestObject('login/txt_login_validation_msg_dynamic', [('status'):status]))
+WebUI.verifyElementVisible(findTestObject('login/txt_login_validation_msg_dynamic', [('statusOB'):status]))
 

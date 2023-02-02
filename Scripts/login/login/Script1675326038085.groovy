@@ -17,7 +17,4 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.sendKeys(findTestObject('login/ipt_email'), emailTC)
-
-WebUI.sendKeys(findTestObject('login/ipt_pass'), passwordTC)
-
+CucumberKW.runFeatureFileWithTags("Include/features/login/login.feature", "@scenarioLogin")

@@ -9,6 +9,10 @@
          <key>BASIC</key>
          <value>//button[@data-litms-control-urn='login-submit']</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@data-litms-control-urn='login-submit']</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -18,5 +22,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//button[@data-litms-control-urn='login-submit']</value>
+      <webElementGuid>d887b2cb-b7ba-4aa5-892c-48e8b0f9a241</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

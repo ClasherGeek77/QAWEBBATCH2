@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[contains(text(), &quot;${status}&quot;)]</value>
+         <value>//*[contains(text(), &quot;${statusOB}&quot;)]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[contains(text(), &quot;${status}&quot;)]</value>
+      <value>//*[contains(text(), &quot;${statusOB}&quot;)]</value>
+      <webElementGuid>58d59b6b-c296-456e-9f64-56d6bf931a49</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -55,9 +55,9 @@ class login {
 
 	@When("I type email (.*) and (.*)")
 	def I_type_email_password_login(String email, String password) {
-		WebUI.callTestCase(findTestCase('Test Cases/pages/login/type email and password login'), [('email'):email, ('password'):password], FailureHandling.STOP_ON_FAILURE)
+		WebUI.callTestCase(findTestCase('Test Cases/pages/login/type email and password login'), [('emailTC'):email, ('passwordTC'):password], FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@When("I click login")
 	def I_click_login() {
 		WebUI.callTestCase(findTestCase('Test Cases/pages/login/click login'), null, FailureHandling.STOP_ON_FAILURE)
